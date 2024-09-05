@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.centered {
+    text-align: center;
+    background-color: #320764;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top:10em;
+}
+
+button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #320764;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+#weather-app {
+    background-color: #320764;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+    margin: 20px 0;
+}
+
+.weather-data {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.weather-data p {
+    margin: 5px 0;
+}
+
+.button-40,#button-40 {
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+    margin:20px;
+  }
+  
+  .button-40,#button-40:hover {
+    background-color: #374151;
+  }
+  
+  .button-40,#button-40:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  
+  @media (min-width: 768px) {
+    .button-40,#button-40 {
+      padding: .75rem 1.5rem;
+    }
+  }
+  .weather-app>h2{
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-bottom: 20px
+  }
+  .weather-app>p{
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 20px
+  }

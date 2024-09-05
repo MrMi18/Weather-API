@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather API App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Landing Screen -->
+        <div id="landing-page" class="centered">
+            <h1>Weather API</h1>
+            <button id="fetch-data-btn">Fetch Data</button>
+        </div>
+
+        <!-- Main Weather App Screen -->
+        <div id="weather-app" class="hidden">
+            <h2>Welcome To The Weather App</h2>
+            <p>Here is your current location</p>
+            <div class="location-coordinates">
+                <span id="button-40">Lat: <span  id="latitude"></span></span>
+                <span id="button-40">Long: <span id="longitude"></span></span>
+            </div>
+
+            <!-- Google Maps Embed -->
+            <div id="map"></div>
+
+            <!-- Weather Data Section -->
+            <div class="weather-data">
+                <h3>Your Weather Data</h3>
+                <div id="weather-details">
+                    <button class="button-40">Location: <span id="location"></span></button>
+                    <button class="button-40">Wind Speed: <span id="wind-speed"></span></button>
+                    <button class="button-40">Humidity: <span id="humidity"></span></button>
+                    <button class="button-40">Time Zone: <span id="timezone"></span></button>
+                    <button class="button-40">Pressure: <span id="pressure"></span></button>
+                    <button class="button-40">Wind Direction: <span id="wind-direction"></span></button>
+                    <button class="button-40">UV Index: <span id="uv-index"></span></button>
+                    <button class="button-40">Feels Like: <span id="feels-like"></span>°C</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
